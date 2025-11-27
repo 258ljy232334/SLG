@@ -7,17 +7,18 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
-    guid: 09a1ef8195ac3904c96e05bc19cb7b30
-  - enabled: 1
-    path: Assets/Scenes/MainScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/RootScene.unity
+    guid: 09a1ef8195ac3904c96e05bc19cb7b30
   - enabled: 1
     path: Assets/Scenes/PlotScene.unity
     guid: a154a8875db341c468e1dab316fc740a
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SmallScene1.unity
     guid: 0f6fcabc2debcca47b72607b89d6d707
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SmallScene2.unity
     guid: c6288d847dbca7b43b75156bb1765cff
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2e10cbb81ee05bd47bc8bee642039b3f, type: 3}

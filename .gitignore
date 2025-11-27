@@ -105,8 +105,16 @@ InitTestScene*.unity*
 # AB包文件夹
 /[Aa]ssets/[Aa]ssets/[Bb]undles/
 
-# TextMeshPro
-/[Aa]ssets/[Tt]extMesh Pro/
-/[Aa]ssets/[Pp]lugins/
-/[Pp]rojectSettings/
-/[Pp]ackages/
+- # TextMeshPro
+- /[Aa]ssets/[Tt]extMesh Pro/
+- /[Aa]ssets/[Pp]lugins/
+- /[Pp]rojectSettings/
+- /[Pp]ackages/
++
+# 如果 TMP 自带字体太大，可单独忽略字体文件，而不是整个目录
+/[Aa]ssets/TextMesh Pro/Examples/
+/[Aa]ssets/TextMesh Pro/Documentation/
+
+# 如果 Plugins 里有只读 SDK，可忽略其 Demo/Doc
+/[Aa]ssets/Plugins/Editor/Android/androidx.*.jar
+/[Aa]ssets/Plugins/Editor/Android/com.android.*.jar
