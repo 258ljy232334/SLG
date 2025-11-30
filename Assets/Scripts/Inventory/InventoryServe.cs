@@ -9,7 +9,7 @@ public class InventoryServe : MonoBehaviour, IInventoryServe
     private IInventoryRepository _repository;
     [Inject]
     private IInventoryManager _manager;
-    private HashSet<ItemType> _dirty;
+    private HashSet<ItemType> _dirty=new HashSet<ItemType>();
 
     private void LateUpdate()
     {
